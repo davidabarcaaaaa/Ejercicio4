@@ -1,8 +1,8 @@
-package aplicacion;
+package Ejercicio4.src.aplicacion;
 
 import java.lang.management.OperatingSystemMXBean;
 
-import operaciones.Matematicas;
+import Ejercicio4.src.operaciones.Matematicas;
 
 public class Principal {
     public static void main(String[] args) {
@@ -12,3 +12,4 @@ public class Principal {
         System.out.println("40) El facotial de 5 es: " + Matematicas.factorial(5));
     }
 }
+
